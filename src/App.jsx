@@ -5,7 +5,7 @@ import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 16;
+  const yesButtonSize = noCount * 10 + 16;
 
   const handleNoClick = () => {
     setNoCount(noCount + 1);
@@ -42,7 +42,8 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            WOOOOOO!!! I like you shiggu...pokkie...ladoo!! ;))
+            WOOOOOO!!! I like you shiggu..ladoo..!! ;))
+                      So it's date babe ❤️
           </div>
         </>
       ) : (
